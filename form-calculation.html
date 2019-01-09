@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Форма расчета</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+</head>
+<body>
+
+    <div class="container">
+      <div class="row">
+        <form class="form-horizontal col-sm-12">
+            <div class="form-group">
+              <h2 class="custom-form-head">Рассчитайте онлайн</h2>
+              <p class="custom-form-caption">Мы – это служба доставки, основной принцип работы которой – 
+                оперативность и максимальный комфорт для клиента.</p>
+            </div>
+          <div class="form-group">
+            
+            <div class="col-sm-12 do-flex do-justify-space-between do-align-end">
+              <div class="w-50 small-100">
+                <h4 class="custom-form-group-head">Адрес №1</h4>
+                <p class="custom-form-group-caption">Шаг 1. Откуда забираем? </p>
+              </div>  
+              <button type="button" class="custom-btn-refresh do-flex do-justify-end do-align-end do-text-align-right p-b-20 btn-hidden">
+                <i class="fas fa-redo m-r-10 custom-form-group-refresh m-b-3 fa-fw"></i>
+                <span class="custom-form-group-refresh">Очистить</span>
+              </button>
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-globe fa-fw"></i>
+              <select class="form-control">
+                <option selected>СПб</option>
+                <option>Москва</option>
+                <option>Екатеринбург</option>
+              </select>
+            </div>
+
+            <div class="col-sm-6 col-md-2 inner-addon left-addon">
+              <i class="fas fa-home fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Дом*">
+            </div>
+
+            <div class="col-sm-6 col-md-2 inner-addon left-addon">
+              <i class="fas fa-map-pin fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Квартира">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-mobile fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Телефон*">
+            </div>
+            <!-- --------------------- row --------------------------- -->
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-map fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Для пригорода, например, Всеволожск">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <object class="custom-icon-metro" type="image/svg+xml" data="img/metro.svg">
+                <img class="custom-icon-metro" src="img/metro.png" alt="">
+              </object>
+              
+              <select class="form-control">
+                <option selected>Метро</option>
+                <option>Калужская</option>
+              </select> 
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-calendar-alt fa-fw"></i>
+              <input type="date" class="form-control" placeholder="Дата">
+            </div>
+            <!-- ----------------------- row ----------------------- -->
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-map-marker-alt fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Улица*">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-user fa-fw"></i>
+              <input type="text" class="form-control" placeholder="ФИО*">
+            </div>
+
+            <div class="col-sm-6 col-md-2 inner-addon left-addon">
+              <i class="fas fa-clock fa-fw"></i>
+              <input type="text" class="form-control" placeholder="с 8:00">
+            </div>
+
+            <div class="col-sm-6 col-md-2 inner-addon left-addon">
+              <i class="fas fa-clock fa-fw"></i>
+              <input type="text" class="form-control" placeholder="до 23:00">
+            </div>
+            <!-- ------------------------ row ------------------- -->
+            <div class="col-sm-12 col-md-12 inner-addon left-addon">
+              <i class="fas fa-comment-dots fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Комментарий: например, ООО «Ромашка» (красная дверь с торца дома)">
+            </div>
+
+            <!-- ------------------------ row ------------------- -->
+            <div class="col-sm-12 do-flex do-align-cente m-t-15">
+              <div class="p-b-43 b-b-grey w-100">
+                <span class="custom-form-group-summary">Цена доставки: 289 рублей</span>
+                <button type="button" 
+                        class="custom-btn-summary"
+                        data-toggle="popover"
+                        data-placement="right">
+                  <i class="fas fa-info-circle fa-fw custom-color-green m-t-3"></i>
+                </button>  
+              </div>
+            </div>
+          </div> 
+
+          <div class="form-group m-t-44">
+            
+            <div class="col-sm-12 do-flex do-justify-space-between do-align-end">
+              <div class="w-50 small-100">
+                <h4 class="custom-form-group-head">Адрес №2</h4>
+                <p class="custom-form-group-caption">Шаг 2. Куда доставляем? </p>
+              </div>  
+              <button type="button" class="custom-btn-refresh do-flex do-justify-end do-align-end do-text-align-right p-b-20 btn-hidden">
+                <i class="fas fa-redo m-r-10 custom-form-group-refresh m-b-3 fa-fw"></i>
+                <span class="custom-form-group-refresh">Очистить</span>
+              </button>
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-globe fa-fw"></i>
+              <select class="form-control">
+                <option selected>СПб</option>
+                <option>Москва</option>
+                <option>Екатеринбург</option>
+              </select>
+            </div>
+
+            <div class="col-sm-6 col-md-2 inner-addon left-addon">
+              <i class="fas fa-home fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Дом*">
+            </div>
+
+            <div class="col-sm-6 col-md-2 inner-addon left-addon">
+              <i class="fas fa-map-pin fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Квартира">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-mobile fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Телефон*">
+            </div>
+            <!-- --------------------- row --------------------------- -->
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-map fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Для пригорода, например, Всеволожск">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <object class="custom-icon-metro" type="image/svg+xml" data="img/metro.svg">
+                <img class="custom-icon-metro" src="img/metro.png" alt="">
+              </object>
+              <select class="form-control">
+                <option selected>Метро</option>
+                <option>Калужская</option>
+              </select> 
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-calendar-alt fa-fw"></i>
+              <input type="date" class="form-control" placeholder="Дата">
+            </div>
+            <!-- ----------------------- row ----------------------- -->
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-map-marker-alt fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Улица*">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon">
+              <i class="fas fa-user fa-fw"></i>
+              <input type="text" class="form-control" placeholder="ФИО*">
+            </div>
+
+            <div class="col-sm-6 col-md-2 inner-addon left-addon">
+              <i class="fas fa-clock fa-fw"></i>
+              <input type="text" class="form-control" placeholder="с 8:00">
+            </div>
+
+            <div class="col-sm-6 col-md-2 inner-addon left-addon">
+              <i class="fas fa-clock fa-fw"></i>
+              <input type="text" class="form-control" placeholder="до 23:00">
+            </div>
+            <!-- ------------------------ row ------------------- -->
+            <div class="col-sm-12 col-md-12 inner-addon left-addon">
+              <i class="fas fa-comment-dots fa-fw"></i>
+              <input type="text" class="form-control" placeholder="Комментарий: например, ООО «Ромашка» (красная дверь с торца дома)">
+            </div>
+  
+          </div>
+          
+          <div class="form-group m-t-23">
+            <div class="col-sm-12">
+              <h4 class="custom-form-group-head">Что везем?</h4>
+              <p class="custom-form-group-caption">Укажите груз или услугу.</p>
+            </div>
+
+            <div class="col-sm-12 do-flex">
+              <div class="custom-order-num-wrapper">
+                <p class="custom-order-num">1</p>
+              </div>
+              <div class="container-fluid">
+                <div class="form-group do-flex do-direction-column m-b-0">
+
+                  <div class="w-100">
+                    <div class="w-325 col-xs-12 inner-addon left-addon">
+                      <i class="fas fa-box-open fa-fw"></i>
+                      <input type="text" class="form-control" placeholder="Груз*">
+                    </div>
+
+                    <div class="col-xs-12 w-224 inner-addon left-addon">
+                      <i class="fas fa-boxes fa-fw"></i>
+                      <select class="form-control">
+                        <option selected>Колличество, шт*</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                      </select>    
+                    </div>
+
+                    <div class="col-xs-12 w-224 inner-addon left-addon">
+                      <i class="fas fa-tachometer-alt"></i>
+                      <input type="text" class="form-control" placeholder="Вес, грамм*">
+                    </div>
+
+                    <div class="col-xs-12 w-224 inner-addon left-addon">
+                      <i class="fas fa-ruble-sign"></i>
+                      <input type="text" class="form-control" placeholder="Ценность в рублях*">
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 ">
+                    <div class="w-100 do-flex do-align-center w-590-100 m-t-23">
+                      <a href="#" class="do-flex custom-add-caption w-468-50">
+                        <i class="fas fa-plus-circle m-t-3 fa-fw"></i>&ensp;
+                        <p class="custom-form-group-summary">Добавить груз</p>&ensp;
+                      </a>
+      
+                      <a href="#" class=" do-flex custom-add-caption m-l-50 w-468-50 m-t-490-10">
+                        <i class="fas fa-plus-circle m-t-3 fa-fw"></i>&ensp;
+                        <p class="custom-form-group-summary">Добавить адрес</p>&ensp;
+                      </a>
+      
+                      <a href="#" class=" do-flex custom-add-caption m-l-50 w-468-50 m-t-490-10">
+                        <i class="fas fa-map-marked fa-fw"></i>&ensp;
+                        <p class="custom-form-group-summary">Показать маршрут</p>&ensp;
+                      </a>
+      
+                      <div class="m-l-50 w-468-50 m-t-490-10">
+                        <div class="custom-form-group-summary"><span class="custom-add-caption">Цена доставки: 289 рублей</span>&nbsp;
+                          <button type="button" 
+                            class="custom-btn-summary"
+                            data-toggle="popover"
+                            data-placement="right">
+                            <i class="fas fa-info-circle fa-fw custom-color-green m-t-3"></i>
+                          </button>
+                        </div>
+                         
+                      </div>
+                    </div>  
+                  </div>
+
+                </div> 
+              </div> 
+
+              <button type="button" class="custom-btn-order-del">
+                <span class="custom-order-del"></span>
+              </button>
+              
+            </div>
+
+            <div class="col-sm-12">
+              <div class="b-b-grey p-b-43 w-100"></div>
+            </div>
+            
+          </div>    
+        
+          <div class="form-group m-t-44">
+
+            <div class="col-sm-12 do-flex do-justify-space-between do-align-end">
+              <div class="w-50 small-100">
+                <h4 class="custom-form-group-head">Дополнительные услуги</h4>
+                <p class="custom-form-group-caption">Шаг 3. Выберите необходимые пункты</p>
+              </div>  
+              <button type="button" class="custom-btn-refresh do-flex do-justify-end do-align-end do-text-align-right p-b-20 btn-hidden">
+                <i class="fas fa-redo m-r-10 custom-form-group-refresh m-b-3 fa-fw"></i>
+                <span class="custom-form-group-refresh">Очистить</span>
+              </button>
+            </div>
+
+            <div class="col-sm-6 col-md-6 do-flex do-direction-column do-align-start">
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input class="custom-checkbox" type="checkbox" value="option1"> 
+                  <span class="custom-checkbox-text">Неудобный груз (> 100см)</span>
+                </label>
+
+                <a href="#" class="custom-checkbox-price-info"><span>95 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option2"> 
+                  <span class="custom-checkbox-text">Требуется доставка в аэропорт</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>500 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+              
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option3"> 
+                  <span class="custom-checkbox-text">Нужен опытный курьер</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>35 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+              
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option1"> 
+                  <span class="custom-checkbox-text">Автоматическое завершение заказа</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>0 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">  
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option2"> 
+                  <span class="custom-checkbox-text">Доставка без договора</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>45 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">  
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option3"> 
+                  <span class="custom-checkbox-text">Осторожно! Хрупкий груз (торт, стекло, цветы и т.д.)</span>
+                </label> 
+                <a href="#" class="custom-checkbox-price-info"><span>55 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">    
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option1"> 
+                  <span class="custom-checkbox-text">Максимальный приоритет заказу</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>100 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">  
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option2"> 
+                  <span class="custom-checkbox-text">Выделить для курьеров заказ цветом</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>50 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option3"> 
+                  <span class="custom-checkbox-text">Подтвердить заказ перед доставкой</span>
+                </label> 
+                <a href="#" class="custom-checkbox-price-info"><span>50 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option2"> 
+                  <span class="custom-checkbox-text">Прислать SMS о вручении</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>5 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center"> 
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option3"> 
+                  <span class="custom-checkbox-text">Забор со склада или из транспортной компании</span>
+                </label>  
+                <a href="#" class="custom-checkbox-price-info"><span>75 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 do-flex do-direction-column do-align-start">
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input class="custom-checkbox" type="checkbox" value="option1"> 
+                  <span class="custom-checkbox-text">Отправка почтой России</span>
+                </label>
+
+                <a href="#" class="custom-checkbox-price-info"><span>95 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option2"> 
+                  <span class="custom-checkbox-text">Ожидание на адресе +20 мин</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>500 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+              
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option3"> 
+                  <span class="custom-checkbox-text">Нужен курьер на автомобиле</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>35 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+              
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option1"> 
+                  <span class="custom-checkbox-text">Сделать фото товара</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>0 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">  
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option2"> 
+                  <span class="custom-checkbox-text">Сделать фото чека</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>45 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">  
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option3"> 
+                  <span class="custom-checkbox-text">Сделать фото акта выполненных работ</span>
+                </label> 
+                <a href="#" class="custom-checkbox-price-info"><span>55 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">    
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option1"> 
+                  <span class="custom-checkbox-text">«Свой» курьер</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>100 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">  
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option2"> 
+                  <span class="custom-checkbox-text">Товар 18+</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>50 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option3"> 
+                  <span class="custom-checkbox-text">Помощь в погрузке (более 15 кг)</span>
+                </label> 
+                <a href="#" class="custom-checkbox-price-info"><span>50 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+              <div class="w-100 do-flex do-justify-space-between do-align-center">
+                <label class="custom-checkbox custom-checkbox-label">
+                  <input type="checkbox" value="option2"> 
+                  <span class="custom-checkbox-text"> Помощь в разгрузке (более 15 кг)</span>
+                </label>
+                <a href="#" class="custom-checkbox-price-info"><span>5 руб</span>&ensp;<i class="fas fa-question-circle"></i></a>
+              </div>
+
+            </div>
+
+            <!-- ------------------------ row ------------------- -->
+            <div class="col-sm-12 do-flex do-align-cente m-t-15">
+              <div class="p-b-43 b-b-grey w-100">
+                <span class="custom-form-group-summary">Цена доставки: 289 рублей</span>
+                <button type="button" 
+                        class="custom-btn-summary"
+                        data-toggle="popover"
+                        data-placement="right">
+                  <i class="fas fa-info-circle fa-fw custom-color-green m-t-3"></i>
+                </button> 
+              </div>
+            </div>
+          </div> 
+
+          <div class="form-group m-t-44">
+
+            <div class="col-sm-12 do-flex do-justify-space-between do-align-end">
+              <div class="w-70 small-100">
+                <h4 class="custom-form-group-head">Тип оплаты и контактная информация</h4>
+                <p class="custom-form-group-caption">Шаг 4. Для завершения заказа заполните свои контактные данные и информацию о посылке</p>
+              </div>  
+              <button type="button" class="custom-btn-refresh do-flex do-justify-end do-align-end do-text-align-right p-b-20 btn-hidden">
+                <i class="fas fa-redo m-r-10 custom-form-group-refresh m-b-3 fa-fw"></i>
+                <span class="custom-form-group-refresh">Очистить</span>
+              </button>
+            </div>
+  
+            <!-- row -->
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="inputDocuments" class="control-label m-b-8">Что везём (коротко)</label>
+              <i class="fas fa-envelope-open fa-fw"></i>
+              <input type="text" class="form-control" id="inputDocuments" placeholder="Документы, пакет и т.д.">
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="selectGetMoney" class="control-label m-b-8">Брать деньги за груз? </label>
+              <i class="fas fa-money-bill-wave fa-fw"></i>
+              <select class="form-control" id="selectGetMoney">
+                <option selected>Нет</option>
+                <option>Да</option>
+              </select>
+            </div>
+
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="selectGetPay" class="control-label m-b-8">Оплата доставки</label>
+              <i class="fas fa-id-card fa-fw"></i>
+              <select class="form-control" id="selectGetPay">
+                <option selected>Отправитель наличными</option>
+                <option>Получатель наличными</option>
+              </select>
+            </div>
+
+            <!-- row -->
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="inputPromokod" class="control-label m-b-8">Промокод</label>
+              <i class="fas fa-star fa-fw"></i>
+              <input type="text" class="form-control" id="inputPromokod" placeholder="Промокод (если есть)">
+            </div>
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="inputFirma" class="control-label m-b-8">Организация</label>
+              <i class="fas fa-money-bill-wave fa-fw"></i>
+              <input type="text" class="form-control" id="inputFirma" placeholder="ООО «Ромашка» ">
+            </div>
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="inputOrderNum" class="control-label m-b-8">Номер заказа</label>
+              <i class="fas fa-check-circle fa-fw"></i>
+              <input type="text" class="form-control" id="inputOrderNum" placeholder="Внутренний номер">
+            </div>  
+
+            <!-- row -->
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="inputSurcharge" class="control-label m-b-8">
+                Доплата от заказчика
+                <i class="fas fa-question-circle fa-fw custom-color-grey"></i>
+              </label>
+              
+              <i class="fas fa-user-plus fa-fw"></i>
+              <input type="text" class="form-control" id="inputSurcharge" placeholder="Не обязательно">
+            </div>
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="inputPhone" class="control-label m-b-8">Ваш мобильный телефон</label>
+              <i class="fas fa-mobile fa-fw"></i>
+              <input type="tel" class="form-control" id="inputPhone" placeholder="+7 (___) ___-__-__">
+            </div>
+            <div class="col-sm-6 col-md-4 inner-addon left-addon top-addon">
+              <label for="inputEmail" class="control-label m-b-8">Ваша электронная почта</label>
+              <i class="fas fa-envelope fa-fw"></i>
+              <input type="email" class="form-control" id="inputEmail" placeholder="user@example.ru">
+            </div> 
+
+            <!-- ------------------------ row ------------------- -->
+            <div class="col-sm-12 m-t-15">
+              <div class="p-b-43 w-100 do-flex do-align-center w-654-f-d-c">
+
+                
+                <div class="custom-form-group-summary ">Цена доставки: 289 рублей&nbsp; 
+                  <button type="button" 
+                        class="custom-btn-summary"
+                        data-toggle="popover"
+                        data-placement="right">
+                    <i class="fas fa-info-circle fa-fw custom-color-green m-t-3"></i>
+                  </button> 
+                </div>
+            
+                <button type="submit" class="btn custom-form-btn m-l-16 w-654-m-t-10">Оформить заказ</button>
+                <p class="custom-form-msg w-50 w-654-w-100 m-l-16 w-654-m-t-10">Нажимая на кнопку «Оформить заказ», Вы соглашаетесь на обработку 
+                  персональных данных в соответствии с пользовательским соглашением</p>
+
+              </div>
+            </div>
+          </div>  
+        </form>   
+      </div>
+    </div>    
+
+    <!-- <select class="form-control">
+                <option selected>Я-заказчик</option>
+                <option>Я-не заказчик</option>
+              </select> -->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
