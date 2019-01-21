@@ -1,6 +1,37 @@
-body{
-  font-family: 'Open Sans', sans-serif;
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/MyriadPro-Regular.woff') format('woff'),
+  url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+  
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kurierchikof-rs-form-order p,
+.kurierchikof-rs-form-order h1,
+.kurierchikof-rs-form-order h2,
+.kurierchikof-rs-form-order h3,
+.kurierchikof-rs-form-order h4,
+.kurierchikof-rs-form-order h5,
+.kurierchikof-rs-form-order h6,
+.kurierchikof-rs-form-order a,
+.kurierchikof-rs-form-order button,
+.kurierchikof-rs-form-order div,
+.kurierchikof-rs-form-order span{
+  font-family: 'Open Sans Regular', sans-serif;
+}
+
 
 .kurierchikof-rs-form-order select {
   -webkit-appearance: none;
@@ -106,12 +137,13 @@ body{
 }
 
 .kurierchikof-rs-form-order .custom-form-btn {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Myriad Pro Regular', sans-serif;
   background-color: #54af3a;
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
   text-align: center;
-  padding: 13px 24px 12px 24px;
+  padding: 10px 24px 9px 24px;
+  letter-spacing: .33px;
 }
 
 .kurierchikof-rs-form-order .custom-form-btn:hover {
@@ -422,10 +454,6 @@ body{
 }
 
 /* reload bootstrap styles */
-
-.kurierchikof-rs-form-order .form-horizontal {
-  font-family: 'Open Sans', sans-serif;
-}
 
 .kurierchikof-rs-form-order .form-control {
   margin-bottom: 10px;

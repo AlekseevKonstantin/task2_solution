@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 24 20"
+   height="20"
+   width="24"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6" /><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,20)"
+     id="g10"><g
+       transform="scale(0.1)"
+       id="g12"><g
+         transform="matrix(180,0,0,150,0,-7.82e-6)"
+         id="g14"><image
+           id="image16"
+           xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAYAAADphp8SAAAABHNCSVQICAgIfAhkiAAAAlpJREFUOI1lkstPGlEYxX8zIQwkUqM2BR/AoCI2qQ/YKj7SNm20/p19bSpuGqtgql21alVAq6ImZRAH7CiYYBhhukBHB8/q3u88cvPdg9GEi8tLYzkRNwrFYjNlqAXViCcSRqlUesTZeIDdvV2W4nEA3M/cPO3oeEiTz5+RTKdIplO8fvmKwVDI5MS7w++tLZbicWRZxiE5SKXTNCO9t4vdbkf2+/m2vMTW9rY16DSfZ/XHGsNDQ8zNzBKJhDlTz6jVaqbw5uYGVVUJj44yN/uO0ZERvq+tks/n74NiCzHsdjuT0QkAQsEBAI6Oj82g45MTAJ6HBgGIjo0jSRLzC7FGkKIoVHWd6Ni4aWppaUEURXaSO+ZsJ5VEEARcLpc5m4xGqeo6WUVB/HOwD0BAli37GAgGUXI5864oCsH+fotG9jc8+wf7iMViEQCHw2ERDb0YAqCq6+i6DsDw7ewOkiQBoKoFbNrFBQC1Wg2b7b4NHrcbgEzmEAQBgM7OTktQrd74jEKxgO2Jy0Xx/JxyuUxbW5tF6O3pYX1zE4Duri6acVW+AsDV4kL0eDwAHB5lHgkj4QiapqFpGpFw5BGfOToCwOfzIgZuF7a+sWHpzd2L7uDzei1cvV7n5/ovAPw+P6IsyzidTnRd50ssZhELgkBra6tZh4eYX4hRrVaRJIneQKBRyKmJSQBypznef/pIqVQyDX29fZZvL1+V+fD5E1lFoeGdQBAEBMMwDICvi4tks3+pXF/T6fEwPTVNR3s7lUoFAKfTyT9NI7GyQu40h9PhoKu7m5k3bwH4D0vsHDWbK0g7AAAAAElFTkSuQmCC"
+           transform="matrix(1,0,0,-1,0,1)"
+           preserveAspectRatio="none"
+           style="image-rendering:optimizeSpeed"
+           height="1"
+           width="1" /></g></g></g></svg>
