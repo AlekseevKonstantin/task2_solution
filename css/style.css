@@ -507,7 +507,17 @@
   .kurierchikof-rs-form-order .custom-checkbox-label {
     width: 70%;
   }
+
+  .kurierchikof-rs-form-order .p-l-7_5{
+    padding-left: 15px;
+  }
+    
+    
+  .kurierchikof-rs-form-order  .p-r-7_5{
+    padding-right: 15px;
+  }
 }
+
 
 @media (max-width: 768px) {
 
